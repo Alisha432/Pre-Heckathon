@@ -1,9 +1,28 @@
 /* Navbar section start */
 
 .btn-green{
-    background: #1090CB;
+    background: #1090CB !important;
     color: white;
 
 
 }
 /* Navbar section end */
+
+
+/* Hero section start */
+
+.blue{
+    color: blue;
+}
+.btn-green{
+    background: #1090CB !important;
+    color: white;
+
+
+}
+.btn-white{
+    background-color: white;
+    color: blue;
+}
+
+/* Hero section end */

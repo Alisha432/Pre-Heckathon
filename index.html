@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -16,34 +17,120 @@
   <body>
     <!-- Navbar section start -->
 
-   <nav class="navbar navbar-expand-lg -bg-body-tertiary ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="./LOGO (5).jpg" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  active" href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  active disabled" aria-disabled="true">Services</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link  active disabled" aria-disabled="true">Blog</a>
-          </li>
-    
-      </ul>
-        <button class="btn btn-outline-success btn-green" type="submit">Contact us</button>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg -bg-body-tertiary">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#"><img src="./LOGO (5).jpg" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse gap-5" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active disabled" aria-disabled="true"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active disabled" aria-disabled="true">Blog</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-success btn-green" type="submit">
+            Contact us
+          </button>
+        </div>
+      </div>
+    </nav>
 
     <!-- Navbar section end -->
+
+    <!-- Hero section start -->
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./Group 6.svg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="fw-bold text-body-emphasis lh-1 mb-3">
+            Experienced <span class="blue">mobile and web</span> applications
+            and website builder measuring.
+          </h1>
+          <p class="lead">
+            KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+            applications and website builders measuring dozens of completed
+            projects. We build and develop mobile applications for several top
+            platforms, including Android & IOS.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              class="btn btn-primary btn-green btn-lg px-4 me-md-2"
+            >
+              Contact us
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-white btn-lg px-4"
+            >
+              View more
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero section end -->
+
+    
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+        >
+  
+          <img src="./Group 26.png" alt="">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+        
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+        >
+         <img src="./Group 24 (1).jpg" alt="">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+        >
+         <img src="./Group 24.jpg" alt="">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+      </div>
+    </div>
 
     <script>
       bootstrap.js;
