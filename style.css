@@ -12,7 +12,7 @@
 /* Hero section start */
 
 .blue{
-    color: blue;
+     color: #1090CB;
 }
 .btn-green{
     background: #1090CB !important;
@@ -22,7 +22,7 @@
 }
 .btn-white{
     background-color: white;
-    color: blue;
+     color: #1090CB;
 }
 
 /* Hero section end */
@@ -39,7 +39,7 @@
 
 /* hero again start */
 
-.imgfix{
+.alignimg{
   width: 300px;
  
 }
@@ -70,6 +70,71 @@
 .boxcolor{
     color: white !important;
 }
+
+
+
+.btnset{
+ 
+  border: none;
+  background-color: white;
+}
+
+
+.whitebtn{
+     background-color: #1090CB;
+}
+
+
+.texter{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.alignbtn{
+    background-color: #1090CB;
+}
+
+.cardb{
+    background-color: #1090CB;
+    color: white;
+}
+
+
+.whitebcg{
+    background-color: #FFFFFF;
+    color: #1090CB !important;
+}
+
+.greybcg{
+    background-color: #F4F4F4;
+}
+
+.lightbtn{
+    text-align: center;
+    align-items: center;
+}
+
+/* features pictures start */
+
+.gridimg{
+    width: 167px;
+    background-color: white;
+}
+
+
+
+
+/* printing section start */
+.section{
+    background-color:#E8F4FA
+
+}
+
+
+
+
+/* printing section end */
 
 
 
